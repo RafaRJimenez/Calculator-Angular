@@ -1,0 +1,42 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-full">
+<div style="text-align:center">
+  <h1>
+    Calculadora Adglow
+  </h1>
+</div>
+
+
+<div class="container">
+  <div class="calculator">
+    <div class="wrapper-display">
+    <input type="text" [(ngModel)]='numberDisplay' class="display text-right">
+    </div>
+    <div class="row justify-content-center text-center">
+      <button type="button" (click)="setNumberInDisplay('7')" class="col-2 btn btn-light">7</button>
+      <button type="button" (click)="setNumberInDisplay('8')" class="col-2 btn btn-light">8</button>
+      <button type="button" (click)="setNumberInDisplay('9')" class="col-2 btn btn-light">9</button>
+      
+      <button type="button" (click)="setOperation('sum')" class="col-2 btn btn-info">+</button>
+    </div>
+    <div class="row justify-content-center text-center">
+      <button type="button" (click)="setNumberInDisplay('4')" class="col-2 btn btn-light">4</button>
+      <button type="button" (click)="setNumberInDisplay('5')" class="col-2 btn btn-light">5</button>
+      <button type="button" (click)="setNumberInDisplay('6')" class="col-2 btn btn-light">6</button>
+       <button type="button" (click)="setOperation('multiply')" class="col-2 btn btn-info">×</button>
+    </div>
+    <div class="row justify-content-center text-center">
+      <button type="button" (click)="setNumberInDisplay('1')" class="col-2 btn btn-light">1</button>
+      <button type="button" (click)="setNumberInDisplay('2')" class="col-2 btn btn-light">2</button>
+      <button type="button" (click)="setNumberInDisplay('3')" class="col-2 btn btn-light">3</button>
+      <button type="button" (click)="setOperation('divide')" class="col-2 btn btn-danger">÷</button>
+    </div>
+    <div class="row justify-content-center last-row text-center">
+       <button type="button" (click)="this[operation]()" class="col-2 btn btn-success">=</button>
+       <button type="button" (click)="setNumberInDisplay('0')" class="col-2 btn btn-light">0</button>
+       <button type="button" (click)="setDisplayToCero()" class="col-2 btn btn-warning">C</button>
+      <button type="button" (click)="setOperation('rest')" class="col-2 btn btn-danger">−</button>
+    </div>
+  </div>
+</div>
+</div>

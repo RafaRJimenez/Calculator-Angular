@@ -1,0 +1,36 @@
+.calculator {
+	border: 1px solid black;
+	width: 400px;
+	height: 450px;
+	margin: 2rem auto;
+	background-color: #585858;
+	border-radius: 5px;
+}
+
+html {
+	background-color: #cecece;
+}
+
+.display {
+	width: 322px;
+	height: 40px;
+	margin: 0 auto;
+	border: 1px solid black;
+	margin-top: 1rem;
+	padding: 0.3rem;
+}
+
+.col-2, .col-4 {
+	border: 1px solid black;
+	padding: 1rem;
+	cursor: pointer;
+	margin: 0.3rem;
+	color: black;
+}
+
+
+.wrapper-display {
+	width: 322px;
+	margin: 0 auto;
+	margin-bottom: 0.3rem;
+}

@@ -1,0 +1,13 @@
+/*
+La idea de este ejercicio es crear una calculadora básica, con cuatro operaciones (suma, resta, multiplicación y división). Para ello, mostraremos un panel
+con botones que incluya estos operadores y además, el botón "C" para limpiar los resultados y los números del 0 al 9.
+
+Podremos introducir varios números y sólo cuando pulsemos sobre el botón de la operación que queremos hacer, guardaremos ese valor para poder operar con él.
+
+La calculadora deberá tener un display (una pantalla) donde se puedan ver los números introducidos y el resultado de la operación.
+
+Como ves, se trata del clásico funcionamiento de una calculadora estándar.
+
+Para realizar este ejercicio, puedes utilizar lo que consideres oportuno. Esto es sólo el esqueleto del proyecto montado con angular cli.
+
+*/
